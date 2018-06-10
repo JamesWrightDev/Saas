@@ -30,6 +30,8 @@ h1 {
 	justify-content: center;
 }
 /*LAYOUT*/
+.features,
+.pricing,
 .container{
 	display: flex;
 	flex-direction: column;
@@ -181,3 +183,10 @@ h3 {
 
 
 }
+/*media*/
+@media (min-device-width : 768px){
+	.features {
+		flex-direction: row;
+		flex-grow: 2;
+		
+	}
