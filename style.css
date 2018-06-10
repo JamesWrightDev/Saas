@@ -1,0 +1,54 @@
+
+
+h1,h2,h3,p {
+	font-family: arial;
+}
+
+/*LAYOUT*/
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;	
+}
+.features{
+	margin-top: 200px;
+}
+
+.pricing {
+	margin-top: 200px;
+}
+
+footer{
+	height: 100px;
+	background-color: grey;
+	width: 100%;
+	margin-top: 50px;
+}
+
+
+
+/*Base Styles */
+
+h1,h2,h3,p {
+	font-family: arial;
+}
+
+.testBr {
+	border: solid black 2px;
+	margin-top: 20px;
+	width: 300px;
+	border-radius: 5px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.02);
+}
+
+#landing-bttn {
+	border: none;
+	background: grey;
+	padding: 30px;
+	border-radius: 5px;
+}
+
+
