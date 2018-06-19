@@ -67,6 +67,7 @@ ul li:before {
 	margin: 0;	
 	padding: 0px;
 }
+
 .hamburger{
 	position: absolute;
 	left: 90%;
@@ -74,7 +75,7 @@ ul li:before {
 
 }
 
-.landing, .landing-2 {
+.landing {
 	border: red 0px solid;
 	height: 100vh;
 	width: 100vw;
@@ -82,7 +83,15 @@ ul li:before {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+}
 
+.landing-2 {
+	width: 100vw;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 .features{
 	margin-top: 5px;
