@@ -8,6 +8,7 @@
 	<link href="style.css" rel="stylesheet">
 	
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 
 	<link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto:400,500,500i,700" rel="stylesheet">
@@ -27,6 +28,10 @@
 
 <!-- 	<span onclick="openNav()"><i class="fas fa-bars"></i></span>
 	</div> -->
+
+	<div id=menu-button>
+		<i class="fas fa-bars"></i>
+	</div>
 
 	<div class="mob-nav">
 	  <a href="#">Login</a>
@@ -71,6 +76,7 @@
 		</div>
 		<div class=landing-2>
 			<h1>Make A Difference.</h1>
+
 		</div>
 
 	
@@ -85,11 +91,12 @@
 				<li>500gb</li>
 				<li>Desktop/Mobile App</li>
 				<li>Outlook Integration</li>
+				<li>Super Sync 	&trade;</li>
 			</ul>
 			<button class="small-button">Start Trial</button>
 		</div>
 		<div class="plan-2 testBr">
-			<h3>Heavy</h3>
+			<h3>Pro</h3>
 			<h4>£9.99/ Month</h4>
 			<p>For the begginer</p>
 			<ul class=features-list>
@@ -109,18 +116,16 @@
 
 	</div>
 	<script>
-	/* Set the width of the side navigation to 250px */
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-}
+	
 
-/* Set the width of the side navigation to 0 */
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
+	//Enable 
+	const $menu = $('#menu-button');
 
+	$menu.on('click', function(){
+		
+		$('.mob-nav').toggle();
 
-
+	});
 
 
 	</script>
