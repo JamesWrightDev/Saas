@@ -1,134 +1,104 @@
-	<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta content="width=device-width, initial-scale=1" name="viewport"><!-- Place favicon.ico in the root directory -->
-	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"> -->
+   <head>
+      <meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1" name="viewport">
+      <!-- Place favicon.ico in the root directory -->
+      <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"> -->
+      <link href="style.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto:400,500,500i,700" rel="stylesheet">
+      </script>
+      <title>LokBox</title>
+   <body>
+      <div class="container">
+         <div id=menu-button>
+            <i class="fas fa-bars"></i>
+         </div>
+         <div class="mob-nav">
+            <a href="login.html">Login</a>
+            <a href="#features">Features</a>
+            <a href="#">Pricing</a>
+            <a href="support.html">Support</a>
+         </div>
+         <div class=landing>
+            <h1>The future of cloud storage. Today.</h1>
+            <button id="landing-bttn">Start Free Trial</button>
+         </div>
+         <a name="features"></a> 
+         <h2>Features</h2>
+         <div class="features">
+            <div class="feature-section testBr">
+               <img class="icon" src="img/lock.png">	
+               <h3>Safe</h3>
+               <p>State of the art encryption</p>
+            </div>
+            <div class="feature-section testBr">
+               <img class="icon" src="img/easy.png">
+               <h3>Easy</h3>
+               <p>Simple and easy interface</p>
+            </div>
+            <div class="feature-section testBr">
+               <img class="icon" src="img/server.png">	
+               <h3>Big</h3>
+               <p>Generous storage spaces.</p>
+            </div>
+         </div>
+         <div class=landing-2>
+            <h1>Make A Difference.</h1>
+         </div>
+         <h2>Plans</h2>
+         <div class="pricing">
+            <div class="plan-1 testBr">
+               <h3>Lite</h3>
+               <h4>£4.99/ Month</h4>
+               <p>For the begginer</p>
+               <ul class="features-list">
+                  <li>500gb</li>
+                  <li>Desktop/Mobile App</li>
+                  <li>Outlook Integration</li>
+                  <li>Super Sync 	&trade;</li>
+               </ul>
+               <button class="small-button">Start Trial</button>
+            </div>
 
-	<link href="style.css" rel="stylesheet">
-	
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-
-	<link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto:400,500,500i,700" rel="stylesheet">
-	</script>
-	<title>LokBox</title>
-	<body>
-<!-- 	<div class="hamburger">
-	<div id="mySidenav" class="sidenav">
-	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-	  <a href="#">Login</a>
-	  <a href="#features">Features</a>
-	  <a href="#">Pricing</a>
-	  <a href="#">Support</a>
-	</div>
- -->
-	<!-- Use any element to open the sidenav -->
-
-<!-- 	<span onclick="openNav()"><i class="fas fa-bars"></i></span>
-	</div> -->
-
-	<div id=menu-button>
-		<i class="fas fa-bars"></i>
-	</div>
-
-	<div class="mob-nav">
-	  <a href="#">Login</a>
-	  <a href="#features">Features</a>
-	  <a href="#">Pricing</a>
-	  <a href="#">Support</a>
-	</div>
-
-	<div class="container">
-
-
-		
-		
-	
-		<div class=landing>
-			<h1>The future of cloud storage. Today.</h1>
-			<button id="landing-bttn">Start Free Trial</button>
-		</div>
-		<a name="features"></a> 
-	<h2>Features</h2>
-	<div class="features">	
-		
-		<div class="feature-section testBr">
-			<img class="icon" src="img/lock.png">	
-		<h3>Safe</h3>		
-		<p>State of the art encryption</p>
-		</div>
-		
-		<div class="feature-section testBr">
-			<img class="icon" src="img/easy.png">
-		<h3>Easy</h3>		
-		<p>Simple and easy interface</p>
-		</div>
-		
-		<div class="feature-section testBr">
-		<img class="icon" src="img/server.png">	
-		<h3>Big</h3>
-
-		<p>Generous storage spaces.</p>
-		</div>
-
-		</div>
-		<div class=landing-2>
-			<h1>Make A Difference.</h1>
-
-		</div>
-
-	
-	<h2>Plans</h2>
-	<div class="pricing">
-		
-		<div class="plan-1 testBr">
-			<h3>Lite</h3>
-			<h4>£4.99/ Month</h4>
-			<p>For the begginer</p>
-			<ul class="features-list">
-				<li>500gb</li>
-				<li>Desktop/Mobile App</li>
-				<li>Outlook Integration</li>
-				<li>Super Sync 	&trade;</li>
-			</ul>
-			<button class="small-button">Start Trial</button>
-		</div>
-		<div class="plan-2 testBr">
-			<h3>Pro</h3>
-			<h4>£9.99/ Month</h4>
-			<p>For the begginer</p>
-			<ul class=features-list>
-				<li>1TB</li>
-				<li><strong>Everthing in Lite</strong></li>
-				<li>Priority Support</li>
-			</ul>
-			<button class="small-button">Start Trial</button>
-		</div>
-
-
-	</div>
-
-	<footer>
-		<p>&copy; Copyright 2018, James Wright</p>
-	</footer>		
-
-	</div>
-	<script>
+            <div class="plan-2 testBr">
+               <h3>Pro</h3>
+               <h4>£9.99/ Month</h4>
+               <p>For the begginer</p>
+               <ul class=features-list>
+                  <li>1TB</li>
+                  <li><strong>Everthing in Lite</strong></li>
+                  <li>Priority Support</li>
+               </ul>
+               <button class="small-button">Start Trial</button>
+            </div>
+         </div>
+      <div class="app testbr">
+    	  	<img class="app-icon" src="img/googlebadge.svg">
+    	  	<img class="app-icon" src="img/applebadge.svg">
 	
 
-	//Enable 
-	const $menu = $('#menu-button');
+      </div>   
+         <footer>
+            <p>&copy; Copyright 2018, James Wright</p>
+         </footer>
+      </div>
+      <script>
+         //Enable 
 
-	$menu.on('click', function(){
-		
-		$('.mob-nav').toggle();
+         const $menu = $('#menu-button');
+         
+         $('.mob-nav').css('display', 'none')
 
-	});
-
-
-	</script>
-
-	</body>
-</head>
+         $menu.on('click', function(){
+         	
+         	$('.mob-nav').toggle();
+         
+         });
+         
+         
+      </script>
+   </body>
+   </head>
